@@ -1,9 +1,9 @@
 {
   "name": "frontend",
   "version": "0.0.1",
-  "description": "Vue based Instagram like PWA",
+  "description": "Vuegram",
   "productName": "Vuegram",
-  "author": "Savinay Kumar <savinaykumar@outlook.com>",
+  "author": "Savinay Kumar <iamsavinaykumar@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
@@ -13,8 +13,8 @@
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "quasar": "^1.0.0",
-    "vue-i18n": "^8.0.0"
+    "md-gum-polyfill": "^1.0.0",
+    "quasar": "^1.0.0"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",

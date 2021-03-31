@@ -1,6 +1,6 @@
 # Vuegram (frontend)
 
-Vue based Instagram like PWA
+Vuegram
 
 ## Install the dependencies
 ```bash

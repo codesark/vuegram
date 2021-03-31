@@ -1,0 +1,23 @@
+// app global css in Sass form
+.font-rochester
+  font-family: "Rochester", "Times New Roman", Helvetica, Arial, sans-serif
+
+.width-constrain
+  margin: 0 auto
+  max-width: 935px
+
+.width-constrain-more
+  margin: 0 auto
+  max-width: 600px
+
+.small-screen-only
+  @media (max-width: $breakpoint-xs-max)
+    display: block
+  @media (min-width: $breakpoint-sm-min)
+    display: none
+
+.large-screen-only
+  @media (max-width: $breakpoint-xs-max)
+    display: none
+  @media (min-width: $breakpoint-sm-min)
+    display: block
